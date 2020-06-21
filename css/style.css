@@ -9,7 +9,22 @@ p{
 
 ul{
     padding-left: 20px;
+
 }
+
+@media print { 
+    .table td, .table th { 
+        background-color: rgb(247, 184, 184) !important; 
+    } 
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin-left: auto;
+        margin-right: auto;
+   } 
+}
+
+
 
 body{
     height:297mm;
@@ -17,14 +32,17 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 95%;
 }
 
 .table td,.table th{
     padding:5px;
     margin:5px;
     align-self: auto;
+    white-space: normal !important; 
+    word-wrap: break-word;
 }
+
+
 
 .name{
     background: rgb(247, 184, 184);
