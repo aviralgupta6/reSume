@@ -2,35 +2,44 @@
     margin: 0px auto;
     padding: 0px 0px;
 }
-  
-.jumbotron {
-  margin: 0px auto;
-  padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; 
+
+p{
+    text-align: justify;
 }
 
-body {
-    padding: 50px 0px 0px 0px;
-    z-index: 0; 
-    height: 842px;
-    width: 595px;
+ul{
+    padding-left: 20px;
+}
+
+body{
+    height:297mm;
+    width:210mm;
     margin-left: auto;
     margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 95%;
 }
+
+.table td,.table th{
+    padding:5px;
+    margin:5px;
+    align-self: auto;
+}
+
 .name{
     background: rgb(247, 184, 184);
-    height:336px;
-
+    padding:30px 40px;
 }
 .sum{
     background-color:rgb(253, 238, 240);
-    height:336px;
+    padding: 90px 40px;
 }
 .skill{
     background-color:rgb(253, 238, 240);
-    height:506px;
+    display:flex;
+    flex-direction: column;
+    padding: 50px 40px;
 }
 .ed{
-    height:506px;
+    padding: 50px;
 }
